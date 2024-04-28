@@ -213,7 +213,6 @@ public class StearnsGame extends ScrollingGame {
         if (invulnerable){
             if (invulnerableTime > 0){
                 invulnerableTime--;
-                System.out.println(invulnerableTime);
                 if (invulnerableTime % 10 == 0){
                     player.setImageName(EMPTY_FILE);
                 }
